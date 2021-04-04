@@ -1,0 +1,465 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.white-space{
+    height: 8vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+body{
+    position: relative;
+}
+
+a.fixed{
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    background-color: blue;
+    color: whitesmoke;
+    transform: rotate(270deg);
+    text-decoration: none;
+    margin: 0;
+    padding: .8rem;
+    position: fixed;
+
+}
+
+.hov:hover{
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
+nav.nav-bar{
+    top: 0;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem .5rem .5rem 5rem;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+div.input-tag input{
+    display: inline;
+    width: 49rem;
+    padding: .8rem;
+    margin-left: 1.6rem;
+    border: none;
+    border-right: blue;
+    background-color: rgba(191, 191, 191, .3);
+}
+
+nav .right-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(.9);
+    margin-left: 1.65rem;
+
+}
+nav .right-bar div{
+    padding: 0 14px;
+}
+div img{
+    margin-left: .7rem;
+}
+div h3{
+    width: 4rem;
+    margin-left: .7rem;
+    display: inline-block;
+}
+div a{
+    padding: 1rem 0;
+}
+div p{
+    font-family:sans-serif;
+}
+
+div.big-img{
+    background: url(./images/big-image-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 410px;
+
+} 
+
+div.big-img-2{
+    background: url(./images/big-image-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 410px;
+}
+
+div.big-img-3{
+    background: url(./images/big-image-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 90vw;
+    height: 500px;
+}
+
+div.big-img-4{
+    background: url(./images/big-image-4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 410px;
+}
+
+div.black-strip{
+    margin-top: 1rem;
+    background-color:slategrey;
+    height: 2.5rem;
+    padding-left: 40%;
+    padding-top: .7rem;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.black-strip a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border: .1px solid whitesmoke;
+    height: fit-content;
+    padding: 2px 10px;
+    margin-left: .5rem;
+}
+
+div.tab-promise{
+    display: flex;
+    width: 90vw;
+    height: 6rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px 10px;
+}
+
+div.slider{
+    display: flex;
+    width: 90vw;
+    height: 6rem;
+    margin: 40px 67px;
+    align-items: center;
+    padding: 0 10px;
+}
+div section p{
+    font-size: .8rem;
+}
+div section h3{
+    width: fit-content;
+}
+div .second , div .third , div .fourth, div .fifth{
+    display: flex;
+    align-items: center;
+}
+
+
+div .slider-section{
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px 15px;
+    border-radius: 3%;
+    width: fit-content;
+    margin-right: 2.6rem;
+}
+div .slider-section h3{
+    order: 2;
+    margin-left: 1rem;
+}
+div .slider-section img{
+    order: 1;
+}
+div .slider-section i{
+    order: 3;
+    margin-left: 8rem;
+}
+
+div.tab-1
+{
+    display: grid;
+    width: 90vw;
+    margin: 40px 67px;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: flex-end;
+    grid-gap: 1rem;
+}
+
+div .element-1 h2{
+    width: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: .5rem;
+    line-height: 2.2rem;
+}
+
+div .element-2{
+    background: url(./images/shoe.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+}
+
+div .element-3{
+    background: url(./images/tab-1-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+}
+
+div .element-4{
+    background: url(./images/tab-1-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+}
+
+div .element-5{
+    background: url(./images/tab-1-4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+}
+
+div.tab-1 section p{
+    width: fit-content;
+    margin: .5rem 0 0 .5rem;
+    font-size: .6rem;
+    padding: .5rem .5rem;
+    background-color: lightblue;
+    color: whitesmoke;
+}
+
+div.tab-1 section p#second-para{
+    background-color: yellow;
+    color: black;
+    margin: 0 0 0 .5rem;
+}
+div.tab-1 section p#last-para{
+    background-color: lightgreen;
+}
+
+div .element-7 ,div .element-8 ,div .element-9 ,div .element-10 {
+    border: 1px solid whitesmoke;
+}
+
+div .element-7 div,div .element-8 div,div .element-9 div,div .element-10 div{
+    display: flex;
+    color: black;
+
+}
+
+div .element-7 div a,div .element-8 div a,div .element-9 div a,div .element-10 div a{
+    text-decoration: none;
+    font-size: .7rem;
+    margin-left: 1rem;
+    color: black;
+
+}
+
+div section div a.first{
+    font-size: .9rem;
+    font-weight: 700;
+    background-color: yellow;
+    width: 3rem;
+    height: 1.5rem;
+    padding-bottom: 1.8rem;
+    text-align: center;
+    margin: 1rem .5rem 0 1rem;
+}
+
+div section div a.second{
+    font-size: .9rem;
+    width: fit-content;
+    height: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin: 1rem .5rem 0 1rem;
+}
+
+div section div a i{
+    color: orange;
+}
+
+div section div.rating{
+
+    font-weight: 800;
+    margin: .5rem ;
+    width: 5.5rem;
+    border: 1px solid whitesmoke;
+}
+div section div.rating a{
+    font-size: 1rem;   
+}
+
+div.tab-2{
+    width: 90vw;
+    margin: auto;
+}
+
+div.tab-2 h3{
+    width: fit-content;
+    margin: 0 0 1rem 0;
+    
+}
+
+div.tab-2 section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+div.tab-2 section img{
+    margin: 0;
+    border-radius: 5%;
+}
+div.tab-2 section img:hover{
+    cursor: pointer;
+}
+
+div.grid-tab{
+    width: 90vw;
+    margin: auto;
+}
+div.grid-tab h3{
+    width: fit-content;
+    margin: 0 0 1rem 0;
+    
+}
+div section.grid-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+}
+div section.grid-images img{
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+}
+div section.grid-images img:hover{
+    cursor: pointer;
+}
+
+
+div section img.first{
+    width: fit-content;
+    grid-column: 1/1;
+    grid-row: 1/4;
+    margin: 0;
+}
+div.bottom-grid{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.bottom-grid section.promise{
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+    background: lightgray;
+}
+
+div.bottom-grid section.promise section{
+    margin: 0 .7rem;
+}
+
+div.bottom-grid section.second img,div.bottom-grid section.third img,div.bottom-grid section.fourth img,div.bottom-grid section.fifth img{
+    width: 30px;
+    height: 30px;
+}
+
+div.bottom-grid section.mobile img{
+    transform: scale(.8);
+}
+div.bottom-grid section.mobile{
+    padding: 1.3rem;
+    background-color: lightgray;
+    margin-right: 2rem;
+}
+
+div.bottom-grid section.mobile h4{
+    font-size: .9rem;
+    font-weight: 600;
+}
+section.table{
+    display: flex;  
+    width: 72vw;
+    justify-content: space-between;
+    /* background-color: lightgray; */
+    align-items: flex-start;
+    /* flex-grow: -100%; */
+    margin: 0 1rem;
+    padding: 1rem;
+    height: 32vh;
+}
+
+div ul li{
+    list-style-type: none;
+    /* line-height: 1rem; */
+    font-size: .9rem;
+    padding: .5rem;
+}
+div ul li.top{
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #424453;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+div.bottom-table-social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+
+section.contact-us{
+    background-color: lightgray;
+    margin-right: 2vw;
+    padding: 1rem;
+    height: 41vh;
+    width: 23vw;
+}
+
+section.contact-us div img{
+    background-color: darkgrey;
+    width: 2rem;
+    height: 2rem;
+    padding: .2rem;
+    margin: 1vh 1.4vw 0 0;
+}
+
+section.contact-us div{
+    padding: 1.8vh 1.5vw;
+}
+
+div.web-link h4, div.follow-us h4{
+    font-size: .9rem;
+}
+div.web-link p{
+    background: whitesmoke;
+    text-align: center;
+    width: 15vw;
+    padding-top: 1vh;
+    height: 4vh;
+    margin-top: 2vh;
+}
