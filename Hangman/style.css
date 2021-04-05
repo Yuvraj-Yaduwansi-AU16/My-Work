@@ -1,0 +1,21 @@
+header{
+    margin: auto;
+    width: 25%;
+}
+div.img-div img{
+    height: 50vh;
+}
+button.btn{
+    padding: 1.5%;
+    margin: 3px 1px;
+    font-size: 1.1rem;
+}
+
+div#keyboard , div#ans-div{
+    padding: 1rem;
+}
+
+div#ans-div p{
+    font-size: 1.5rem;
+    display: inline-block;
+}
