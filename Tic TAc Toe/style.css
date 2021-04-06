@@ -1,0 +1,30 @@
+div section.tiles{
+    height: 17vh;
+    width: 17vw;
+    margin: .15rem;
+    background-color:cadetblue;
+}
+
+div section.tiles:hover{
+    cursor: pointer;
+}
+
+div.game-over{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+
+div.game-over a{
+    font-size: 7vh;
+    border-radius: 5% !important;
+
+}
+
+h1.game-over-heading{
+    font-size: 4rem;
+    height: 10vh;
+    text-transform: uppercase;
+    color: rgb(241, 237, 237);
+
+}

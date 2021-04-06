@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body class="bg-dark">
+    <div class="conatiner-flex">
+        <h1 class="heading text-center my-4 text-light">Tic Tac Toe</h1>
+    </div>
+
+    <div class="container-flex main">
+
+        <div class="container-flex d-flex justify-content-around my-2">
+            <h1 class="red-heading text-danger">Red Player</h1>
+            <h1 class="green-heading text-success">Green Player</h1>
+        </div>
+
+        <div class="container flex-wrap w-25 main">
+            <div class="d-flex flex-row">
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="11"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="12"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="13"></section>
+
+
+            </div>
+            <div class="d-flex flex-row">
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="21"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="22"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="23"></section>
+
+            </div>
+
+            <div class="d-flex flex-row">
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="31"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="32"></section>
+
+                <section class="tiles d-flex align-items-center justify-content-center border border-4 rounded" id="33"></section>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="game-over" role="group">
+        <h1 class="game-over-heading fw-bold my-4"></h1>
+        <a href="" type="button" class="btn btn-warning border border-4">Play Again</a>
+    </div>
+
+    <footer>
+        <div class="container-flex d-flex align-items-center justify-content-center">
+            <h1 class="bottom-heading text-light my-5">Made By - Yuvraj Singh Yaduwansi</h1>
+        </div>
+    </footer>
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
