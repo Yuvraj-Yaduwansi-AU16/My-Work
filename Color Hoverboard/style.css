@@ -1,0 +1,11 @@
+#box-outer {
+    max-width: 500px;
+    background-color: #131313;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-color: #3a3a3a;
+}
